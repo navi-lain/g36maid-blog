@@ -9,11 +9,15 @@ source: "hackmd"
 sourceType: "note"
 sourceTimestamp: 1745842946
 draft: false
+media:
+  - zed-freebsd-pr20480.png
 ---
 
 > 擴寫自 2025-04-28 的隨筆
 
 在 FreeBSD 上想用 Zed,`pkg search zed` 找不到任何東西。官方只發 macOS 和 Linux 版,而我日常主力是 FreeBSD 14.2-RELEASE (amd64),總不能為了一個編輯器天天切到 Linux 機器。乾脆自己動手做一個非官方 port。
+
+![CalebHeydon 在 Zed PR #20480 附上的截圖：Zed 跑在 FreeBSD 14.1（KDE Plasma），右側 neofetch 顯示系統資訊](/media/2025-04/zed-freebsd-pr20480.png)
 
 ## 背景:Zed 離 FreeBSD 其實沒有很遠
 
